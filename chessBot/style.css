@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #121212;
+    color: #fff;
+}
+
+#app {
+    text-align: center;
+}
+
+.chess-board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    margin: 20px auto;
+    border: 2px solid #fff;
+}
+
+.chess-board div {
+    width: 50px;
+    height: 50px;
+}
+
+.chess-board .white {
+    background: #fff;
+}
+
+.chess-board .black {
+    background: #000;
+}
